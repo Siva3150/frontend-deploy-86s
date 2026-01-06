@@ -1,0 +1,11 @@
+# deployment: 
+#  imageRepo: siva3150/frontend  
+#  imageVersion: v1 
+# service: 
+#  servicePort: 80 # default value
+
+deployment:
+  imageRepo: 160885265516.dkr.ecr.us-east-1.amazonaws.com/roboshop/frontend
+  imageVersion: IMAGE_VERSION
+service:
+  servicePort: 80 # default value
